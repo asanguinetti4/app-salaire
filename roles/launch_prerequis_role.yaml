@@ -1,0 +1,9 @@
+---
+- name: prerequis pour tous les hotes
+  hosts: webservers
+
+  remote_user: root
+
+  roles:
+    - prerequis
+

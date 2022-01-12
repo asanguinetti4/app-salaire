@@ -1,0 +1,29 @@
+# vars file for roles
+---
+
+user: Alex 
+
+pkg:
+  - vim
+  - php
+  - php-mysql
+  - httpd
+
+db_host:
+  - 192.168.1.33
+
+mysql_dbname:
+  - db.alexandre.form
+
+mysql_user:
+  - alexandre
+
+mysql_password:
+  - ty
+
+root_mariadb_password: "root"
+mysql_user: "alexandre"
+mysql_password: ""
+mysql_dbname: "dbalexandreform"
+db_host: "192.168.1.33"
+webserver_host: "192.168.1.33"
